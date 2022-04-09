@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    background-color: white;
+}
+h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+header p{
+    background-color: #1C2026;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    box-sizing: border-box;
+    width: 80%;
+}
+.content{
+    text-align: center;
+    justify-content: left;
+}
+#booking-form{
+    padding-left: 300px;
+}
+.grid-container {
+    background-color:#2E323A;
+    box-sizing: border-box;
+    width: 80%;
+    display: grid;
+    /* justify-content: center; */
+    grid-template-columns: auto auto;
+    padding: 10px;
+    gap: 30px;
+  }
+.grid-item {
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+  }
+.block{    
+    background-color: #1C2026;
+    color: white;    
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+    text-align: left;
+}
+#booking-form{
+    margin: 100px;
+}
+input[type=submit] {
+    width: 80%;
+    background-color: #F8C50F;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 15px 12px;
+    margin: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
